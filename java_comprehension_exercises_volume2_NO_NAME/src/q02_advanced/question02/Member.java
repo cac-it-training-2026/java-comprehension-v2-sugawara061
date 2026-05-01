@@ -116,11 +116,6 @@ public class Member {
 		this.rank = rank;
 		this.coupons = new ArrayList<>();
 
-		Coupon coupon1 = new Coupon(1, 0.5, "最初の特典");
-		Coupon coupon2 = new Coupon(2, 0.25, "今月の特典");
-
-		this.coupons.add(coupon1);
-		this.coupons.add(coupon2);
 	}
 
 	@Override

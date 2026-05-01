@@ -66,8 +66,8 @@ public class Coupon {
 
 	@Override
 	public String toString() {
-		return "Coupon [getId()=" + getId() + ", getDiscountRate()=" + getDiscountRate() + ", getDiscription()="
-				+ getDiscription() + "]";
+		return "Coupon [id=" + id + ", discountRate=" + discountRate + ", description=" + description + "]";
+
 	}
 
 	public static Coupon getInstance(int id, double rate, String desc) {
