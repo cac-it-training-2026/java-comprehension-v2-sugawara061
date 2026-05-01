@@ -197,7 +197,7 @@ public class MemberManagerTest02 {
 		String originalPassword3 = members.get(2).getPassword();
 
 		System.out.println("--- updatePassword (該当者なし) の出力開始 ---");
-		// updatePasswordメソッドを呼び出し
+		// updatePasswordメソッドを呼ssssび出し
 		MemberManager.updatePassword(members, targetId, newPassword);
 		System.out.println("--- updatePassword (該当者なし) の出力終了 ---");
 
